@@ -33,6 +33,13 @@
 #         print('Seu nome é normal!')
 #     else:
 #         print('Seu nome é muito grande!')
-lista = ['Maria', 'Lucas', 1,2,3, 'Eduarda']
+# lista = ['Maria', 'Lucas', 1,2,3, 'Eduarda']
 
-print(*lista)
+# print(*lista)
+# SET
+
+l1 = [1, 2, 3, 3, 3, 3, 1]
+s1 = set(l1)
+s1 = {1, 2, 3}
+print(s1)
+print(2 in s1)
