@@ -1,4 +1,4 @@
-palavra_secreta = 'jaki'
+palavra_secreta = 'Good'
 acertos = ''
 tentativas = 0
 while True:

@@ -32,10 +32,10 @@ import copy
 # print(duplicar(2))
 # print(triplicar(3))
 
-p1 = {
-    'nome' : 'Marcos',
-    'sobrenome' : 'Antonio',
-}
+# p1 = {
+#     'nome' : 'Marcos',
+#     'sobrenome' : 'Antonio',
+# }
 
 # print(p1['nome'])
 # print(p1.get('nome', 'Não existe'))
@@ -53,7 +53,7 @@ p1 = {
 
 # p1.update(nome='novo valor', idade=30)
 
-tupla = ('nome', 'Marcos'),('idade', 30)
-lista = [['nome', 'Marcos'],['idade', 30]]
-p1.update(lista)
-print(p1)
+# tupla = ('nome', 'Marcos'),('idade', 30)
+# lista = [['nome', 'Marcos'],['idade', 30]]
+# p1.update(lista)
+# print(p1)

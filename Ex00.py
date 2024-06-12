@@ -34,12 +34,34 @@
 #     else:
 #         print('Seu nome é muito grande!')
 # lista = ['Maria', 'Lucas', 1,2,3, 'Eduarda']
-
 # print(*lista)
+
 # SET
 
-l1 = [1, 2, 3, 3, 3, 3, 1]
-s1 = set(l1)
-s1 = {1, 2, 3}
-print(s1)
-print(2 in s1)
+# l1 = [1, 2, 3, 3, 3, 3, 1]
+# s1 = set(l1)
+# s1 = {1, 2, 3}
+# print(s1)
+# print(2 in s1)
+
+# s1 = set()
+# s1.add('Ana')
+# s1.update(('Olá', 1, 2, 3))
+# # s1.clear()
+# s1.discard(2)
+# print(s1)
+
+# s1 = {1, 2, 3}
+# s2 = {2, 3, 4}
+# s3 = s1 | s2
+# print(s3)
+
+# letras = set()
+# while True:
+#     letra = input('Digite: ')
+#     letras.add(letra.lower())
+
+#     if 'b' in letras:
+#         print('Good!')
+#         break
+#     print(letras)
