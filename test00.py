@@ -45,24 +45,24 @@
 # EX. SET
 
 
-lista_de_num = [
-    [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    [1, 1, 2, 3, 4, 5, 5, 6, 7],
-    [1, 2, 3, 4, 3, 5, 6, 2, 7],
-]
+# lista_de_num = [
+#     [1, 2, 3, 4, 5, 6, 7, 8, 9],
+#     [1, 1, 2, 3, 4, 5, 5, 6, 7],
+#     [1, 2, 3, 4, 3, 5, 6, 2, 7],
+# ]
 
-def encontra_primeiro_duplicado(lista_de_num):
-    num_chec =  set()
-    primeiro_duplicado = -1
-    for num in lista_de_num:
-        if num in num_chec:
-            primeiro_duplicado = num
+# def encontra_primeiro_duplicado(lista_de_num):
+#     num_chec =  set()
+#     primeiro_duplicado = -1
+#     for num in lista_de_num:
+#         if num in num_chec:
+#             primeiro_duplicado = num
 
-        num_chec.add(num)
+#         num_chec.add(num)
         
-    print()
-    print()
-    return primeiro_duplicado
-for lista in lista_de_num:
-   print(
-       lista, encontra_primeiro_duplicado(lista))
+#     print()
+#     print()
+#     return primeiro_duplicado
+# for lista in lista_de_num:
+#    print(
+#        lista, encontra_primeiro_duplicado(lista))
