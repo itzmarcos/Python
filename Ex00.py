@@ -68,16 +68,43 @@
 
 # LAMBDA
 
-lista = [ {'nome' : 'Luiz', 'sobrenome' : 'Carlo' },
-         {'nome' : 'Ana', 'sobrenome' : 'Paula'}
-         ]
-def exibir(lista):
-    for item in lista:
-        print(item)
-        print()
-l1 = sorted(lista, key=lambda item: item ['nome'])
-l2 = sorted(lista, key=lambda item: item ['sobrenome'])
+# lista = [ {'nome' : 'Luiz', 'sobrenome' : 'Carlo' },
+#          {'nome' : 'Ana', 'sobrenome' : 'Paula'}
+#          ]
+# def exibir(lista):
+#     for item in lista:
+#         print(item)
+#         print()
+# l1 = sorted(lista, key=lambda item: item ['nome'])
+# l2 = sorted(lista, key=lambda item: item ['sobrenome'])
 
-exibir(l1)
-exibir(l2)
+# exibir(l1)
+# exibir(l2)
+a, b = 1, 2
+a, b = b, a
 
+pessoa = {
+    'nome' : 'Aline',
+    'sobrenome' : 'Souza',
+}
+dados_pessoa = {
+    'idade' : 16,
+    'altura' : 1.6,
+}
+pessoa_completa = {**pessoa, **dados_pessoa}
+
+def mostro_argumentos_nomeados(*args, **kwargs):
+    print('NÃO NOMEADOS:', args)
+
+    for chave, valor in kwargs.items():
+        print(chave, valor)
+
+    mostro_argumentos_nomeados(nome='Joana', qlq=123)
+        # mostra_argumentos_nomeados(**pessoa_completa)
+# configuracoes = {
+#     'arg1': 1,
+#     'arg2': 2,
+#     'arg3': 3,
+# }
+# mostro_argumentos_nomeados(**configuracoes) 
+print(pessoa_completa)
