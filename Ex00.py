@@ -80,26 +80,26 @@
 
 # exibir(l1)
 # exibir(l2)
-a, b = 1, 2
-a, b = b, a
+# a, b = 1, 2
+# a, b = b, a
 
-pessoa = {
-    'nome' : 'Aline',
-    'sobrenome' : 'Souza',
-}
-dados_pessoa = {
-    'idade' : 16,
-    'altura' : 1.6,
-}
-pessoa_completa = {**pessoa, **dados_pessoa}
+# pessoa = {
+#     'nome' : 'Aline',
+#     'sobrenome' : 'Souza',
+# }
+# dados_pessoa = {
+#     'idade' : 16,
+#     'altura' : 1.6,
+# }
+# pessoa_completa = {**pessoa, **dados_pessoa}
 
-def mostro_argumentos_nomeados(*args, **kwargs):
-    print('NÃO NOMEADOS:', args)
+# def mostro_argumentos_nomeados(*args, **kwargs):
+#     print('NÃO NOMEADOS:', args)
 
-    for chave, valor in kwargs.items():
-        print(chave, valor)
+#     for chave, valor in kwargs.items():
+#         print(chave, valor)
 
-    mostro_argumentos_nomeados(nome='Joana', qlq=123)
+#     mostro_argumentos_nomeados(nome='Joana', qlq=123)
         # mostra_argumentos_nomeados(**pessoa_completa)
 # configuracoes = {
 #     'arg1': 1,
@@ -107,4 +107,30 @@ def mostro_argumentos_nomeados(*args, **kwargs):
 #     'arg3': 3,
 # }
 # mostro_argumentos_nomeados(**configuracoes) 
-print(pessoa_completa)
+# print(pessoa_completa)
+
+lista = []
+for numero in range(10):
+    lista.append(numero)
+
+lista = [
+    numero * 2
+    for numero in range(10)
+]
+
+print(list(range(10)))
+print(lista)
+
+produtos = [
+    {'nome': 'p1', 'preco': 20, },
+    {'nome': 'p2', 'preco': 10, },
+    {'nome': 'p3', 'preco': 30, },
+]
+
+novos_produtos = [
+    {**produto, 'preco': produto['preco'] * 1.05}
+    if produto ['preco'] > 20 else {**produto}
+    for produto in produtos
+]
+
+print(*novos_produtos, sep='\n')
