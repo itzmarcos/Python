@@ -1,3 +1,6 @@
+#CONDIGO 01
+
+
 # entrada = int(input('Digite um numero INTEIRO: '))
 # try:
 #    # num_int = float(num)
@@ -36,6 +39,9 @@
 # lista = ['Maria', 'Lucas', 1,2,3, 'Eduarda']
 # print(*lista)
 
+
+#CONDIGO 02
+
 # SET
 
 # l1 = [1, 2, 3, 3, 3, 3, 1]
@@ -66,6 +72,13 @@
 #         break
 #     print(letras)
 
+
+
+
+#CONDIGO 03
+
+
+
 # LAMBDA
 
 # lista = [ {'nome' : 'Luiz', 'sobrenome' : 'Carlo' },
@@ -82,6 +95,16 @@
 # exibir(l2)
 # a, b = 1, 2
 # a, b = b, a
+
+
+
+
+#CONDIGO 04
+
+
+
+
+
 
 # pessoa = {
 #     'nome' : 'Aline',
@@ -108,6 +131,13 @@
 # }
 # mostro_argumentos_nomeados(**configuracoes) 
 # print(pessoa_completa)
+
+
+
+#CONDIGO 05
+
+
+
 
 # lista = []
 # for numero in range(10):

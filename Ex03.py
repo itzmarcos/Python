@@ -1,3 +1,7 @@
+#CONDIGO 01
+
+
+
 # tentativas = 0
 # perguntas = [
 #     {
@@ -42,6 +46,10 @@
 
 
 
+
+
+#CONDIGO 02
+
 # EX. SET
 
 
@@ -67,41 +75,69 @@
 #    print(
 #        lista, encontra_primeiro_duplicado(lista))
 
-import copy
 
-from dados import produtos
 
-novos_produtos = [
-    {**p, 'preco:': round(p['preco']*1.1, 2)}
-    for p in copy.deepcopy(produtos)
+#CONDIGO 03
+
+
+
+# import copy
+
+# from dados import produtos
+
+# novos_produtos = [
+#     {**p, 'preco:': round(p['preco']*1.1, 2)}
+#     for p in copy.deepcopy(produtos)
     
-]
+# ]
 
 # print(*produtos, sep='\n')
 # print()
 # print(*novos_produtos, sep='\n')
 
-produtos_ordenados_por_nome = sorted(
-    copy.deepcopy(produtos),
-    key=lambda p: p['nome'],
-    reverse=True
-)
-print(*produtos, sep='\n')
-print()
+# produtos_ordenados_por_nome = sorted(
+#     copy.deepcopy(produtos),
+#     key=lambda p: p['nome'],
+#     reverse=True
+# )
+# print(*produtos, sep='\n')
+# print()
 
 
-produtos_ordenados_por_preco = sorted(
-     copy.deepcopy(produtos),
-     key=lambda p: p['preco'],
-)
-
-#ENDIG
+# produtos_ordenados_por_preco = sorted(
+#      copy.deepcopy(produtos),
+#      key=lambda p: p['preco'],
+# )
 
 
-print(*produtos, sep='\n')
-print()
-print(*novos_produtos, sep='\n')
-print()
-print(*produtos_ordenados_por_nome, sep= '\n')
-print()
-print(*produtos_ordenados_por_preco, sep= '\n')
+
+#CONDIGO 04
+
+
+
+
+# #ENDIG
+
+
+# print(*produtos, sep='\n')
+# print()
+# print(*novos_produtos, sep='\n')
+# print()
+# print(*produtos_ordenados_por_nome, sep= '\n')
+# print()
+# print(*produtos_ordenados_por_preco, sep= '\n')
+
+# def soma(x, y):
+#     return x + y
+
+# def multplicar(x, y):
+#     return x * y
+
+# def executar(funcao, x):
+#     def interna (y):
+#         return funcao(x, y)
+#     return interna
+
+# soma_com_cinco = executar(soma, 5)
+# multplicar_por_dez = executar(multplicar, 10)
+# print(soma_com_cinco(5))

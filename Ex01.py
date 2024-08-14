@@ -1,6 +1,15 @@
 # import os
 # lista = []
 
+
+#CONDIGO 01
+
+
+
+
+
+
+
 # while True:
 #     print('Selecione uma opção')
 #     opção = input('[i]nserir', '[a]pagar', '[l]istar')
@@ -28,6 +37,14 @@
 
 #         for i, nome in enumerate(lista):
 #             print(i,nome)
+
+
+
+
+#CONDIGO 02
+
+
+
 
 # lista = [ 
 #     'a', 1, 1.1, True, [0, 1, 2], (1, 2), {0, 1}, {'nome': 'Luiz'}

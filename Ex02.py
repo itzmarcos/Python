@@ -1,5 +1,13 @@
 import copy
 
+
+
+#CONDIGO 01
+
+
+
+
+
 #  def multiplicar(*args):
 #      total = 1
 #      for arg in args:
@@ -18,6 +26,12 @@ import copy
 # numero = 9
 # resultado = verificar_paridade(numero)
 # print(f"O número {numero} é {resultado}.")
+
+
+
+#CONDIGO 02
+
+
 
 
 
